@@ -20,44 +20,12 @@ import com.mohammed.game.level.TileCoordinate;
 
 public class Game extends Canvas implements Runnable{
    /**
-    * ©Mohammed Qureshi 2014-2015
-    */
-
-   /*Next Tutorial Link EP98 - https://www.youtube.com/watch?v=TjqnXmQdywk
-   * Time - 00.00
-   * Game Name - Project StarStruck
-   */
-	
-   /*Extra Features
-    * Set Up Server Packet - New Tutorial - https://www.youtube.com/watch?v=Uwr4WCxzB_A&index=15&list=PL8CAB66181A502179
-    * Animating Textures - https://www.youtube.com/watch?v=0D8yFim_nIc&index=14&list=PL8CAB66181A502179 
+    * Â©Mohammed Qureshi 2014-2015
     */
    
    /*
-    * All Textures Are Designed By Mohammed Qureshi.
-    */
-	
-/* Game Updates - Ep7
- * Ep7 Game Development Log
- * New Player
- * Better Particles
- * Small Monitor of Game
- * Added Particle Physics
- * Player Update
- * Place Holder Update
- * Added First Mob
- */
-	
-/* Ep 8 Game Development Log
- * Animated Mob
- * Mob Movement
- * Mob Stopping
- * Spawn More Then 1 Mob At A Time
- * Added Chaser Mob
- * Chaser Mob Basic Chaser AI Implemented
- * 
- */
-	
+    * All Textures Are Designed By Mohammed Faisal Qureshi.
+    */	
    private static final long serialVersionUID = 1L;
 
    private static int WIDTH = 317; //317
@@ -204,7 +172,7 @@ public class Game extends Canvas implements Runnable{
       g.drawRect(80, 580, 100, 15);
       
       g.setFont(new Font("Century Gothic" ,0, 16));
-      g.drawString("£"+Money , 82, 594);
+      g.drawString("Â£"+Money , 82, 594);
       
       if(key.increaseMoney){
     	  Money = Money + 1;
